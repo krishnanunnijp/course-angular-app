@@ -1,0 +1,35 @@
+<app-course-navbar></app-course-navbar>
+<div class="container">
+    <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <div class="row g-3 mt-4">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <h3>ADD course portal </h3>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                    <label for="title" class="form-label">title</label>
+                    <input name="courseTitle"  [(ngModel)]="courseTitle" type="text" class="form-control">
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                    <label for="" class="form-label">Duration</label>
+                    <input name="courseDescription" [(ngModel)]="courseDescription" type="text" class="form-control">
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                    <label for="" class="form-label">description</label>
+                    <textarea name="courseDuration" [(ngModel)]="courseDuration" id="" cols="4" class="form-control"></textarea>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                    <label for="" class="form-label">date</label>
+                    <input name="courseDate" [(ngModel)]="courseDate" type="date" class="form-control">
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+                    <label for="" class="form-label">venue</label>
+                    <input name="courseVenue" [(ngModel)]="courseVenue" type="text" class="form-control">
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 text-center">
+                    <a (click)="readValue()" class="btn btn-warning">Add </a>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
